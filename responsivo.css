@@ -1,0 +1,33 @@
+@media(max-width:850px){
+    body{
+        background-color: white;
+    }
+    .container h1{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    header nav li{
+        font-size: 10px;
+        margin-left: 5px;
+        margin-right: 10px;
+    }
+    section .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .store-front{
+        height: 257px;
+    }
+    .contact-methods{
+        display: block;
+    }
+    form input ,form textarea ,form button{
+        width: 340px;
+    }
+    footer .container{
+        font-size: 10px;
+    }
+    .local{
+        font-size: 15px;
+    }
+}

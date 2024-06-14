@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: white;
+}
 body , input , textarea{
     font-family: "Roboto", sans-serif;
 }
@@ -62,6 +65,11 @@ section p{
 }
 .social-links img{
     height: 24px;
+    transition: 0.2s;
+}
+.social-links img:hover{
+    height: 26px;
+    margin: 0 4px;
 }
 .social-links li{
     display: inline;
